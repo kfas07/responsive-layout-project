@@ -1,0 +1,152 @@
+/* Main Style */
+
+.main-header, .nav {
+    display: flex; 
+    flex-direction: column; 
+    background: #fafafa;
+}
+
+.main-header {
+    padding-top: 2em;
+}
+
+.student-name {
+    width: 250px;
+    align-self: center;
+    color: #6c7075;
+}
+
+.nav {
+    margin-top: 1.5em;
+}
+
+.nav a {
+    display: block;
+    color: #52483f;
+    font-size: 1.125em;
+    font-weight: 300;
+    text-align: center;
+    padding: .4em;  
+    background-color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #fdd36d;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+li {
+    padding: 3px;
+}
+
+.profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+.description {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: #989199;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    color: #52483f;
+}
+.portfolio-container, .pages {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.portfolio-container img{
+    width: 300px;
+}
+
+.portfolio-container h4, p {
+    text-align: center;
+    color: #52483f;
+}
+
+
+
+
+
+/* Media Queries */
+
+/* Tablet media query */
+@media (min-width: 768px) {
+/* header styles */
+    .main-header, .nav {
+        background: #fafafa;
+    }
+    .main-header {
+        height: 550px;
+        justify-content: flex-start;
+    }
+    .student-name {
+        width: 250px;
+    }
+    .nav {
+        margin-top: 10px;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .profile-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .description {
+        text-align: left;
+        padding: 5px;
+    }
+    .profile {
+        width: 300px;
+    }
+
+ /* body styles */
+ .portfolio-container {
+     display: flex;
+ }
+.pages {
+    flex: 1;
+}
+
+
+
+}
+
+
+
+@media (min-width: 1024px) {
+    .main-header, .nav {
+        background: #fafafa;
+    }
+    .main-header {
+        flex-direction: row;
+    }
+    .student-name {
+        margin-right: auto;
+    }
+    .nav {
+        margin-top: 0;
+        align-self: center;
+    }
+    .nav a {
+        
+    }
+    .nav li {
+        margin-left: 0.65em;
+        margin-right: 0.65em;
+    }
+}
