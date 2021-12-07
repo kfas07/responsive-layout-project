@@ -132,7 +132,7 @@ h3 {
     .main-header, .nav {
         background: #fafafa;
     }
-    .main-header {
+    .main-header, .portfolio-container {
         flex-direction: row;
     }
     .student-name {
@@ -148,5 +148,7 @@ h3 {
     .nav li {
         margin-left: 0.65em;
         margin-right: 0.65em;
+    }
+    .pages {
     }
 }
