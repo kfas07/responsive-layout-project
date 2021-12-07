@@ -66,17 +66,22 @@ h3 {
 .portfolio-container, .pages {
     display: flex; 
     flex-direction: column; 
+    align-items: center;
 }
 
 .portfolio-container img{
-    width: 300px;
+    width: 50%;
 }
 
 .portfolio-container h4, p {
     text-align: center;
     color: #52483f;
 }
-
+.pages {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
 
 
 
@@ -116,11 +121,12 @@ h3 {
 
  /* body styles */
  .portfolio-container {
-     display: flex;
+     
  }
 .pages {
-    flex-direction: row;
-    flex-wrap: wrap;
+    max-width: 50%;
+    flex-direction: column;
+    align-items: center;
 }
 
 
