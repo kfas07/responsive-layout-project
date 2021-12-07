@@ -1,3 +1,8 @@
+/* root styles */
+* {
+    box-sizing: border-box;
+}
+
 /* Main Style */
 
 .main-header, .nav {
@@ -63,11 +68,6 @@ h3 {
     text-align: center;
     color: #52483f;
 }
-.portfolio-container, .pages {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center;
-}
 
 .portfolio-container img{
     width: 50%;
@@ -77,14 +77,6 @@ h3 {
     text-align: center;
     color: #52483f;
 }
-.pages {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center;
-}
-
-
-
 
 /* Media Queries */
 
@@ -120,16 +112,18 @@ h3 {
     }
 
  /* body styles */
- .portfolio-container {
-     
- }
 .pages {
-    max-width: 50%;
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-
-
+.pages div {
+    flex-basis: 50%;
+    padding: 10px;
+}
+.portfolio-container img {
+    width: 100%
+}
 
 }
 
