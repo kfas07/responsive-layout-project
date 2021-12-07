@@ -1,6 +1,7 @@
 /* root styles */
 * {
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 /* Main Style */
@@ -88,12 +89,20 @@ h3 {
 }
 .BTT {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+    margin-top: auto;
+    padding: 0 20px;
+    height: 100px;
     background: #fafafa;
     color: #6c7075;
 }
-
+.BTT a {
+    text-decoration: none;
+}
+.full {
+    display: none;
+}
 
 
 
@@ -143,7 +152,17 @@ h3 {
 .portfolio-container img {
     width: 100%
 }
-
+.top {
+    display: none;
+}
+.full {
+    display: inline-block;
+    margin-left: 20px;
+}
+.BTT a {
+    text-decoration: none;
+    color: #6c7075
+}
 }
 
 

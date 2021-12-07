@@ -5,21 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <div class="container" id="top">
+    <div class="container" id="topnav">
         <header class="main-header">
             <h1 class="student-name">Kirsten Fasanello</h1>
 
             <ul class="nav">
-                <li>
+                <li id="home">
                     <a href="#">Home</a>
                 </li>
-                <li>
+                <li id="portfolio">
                     <a href="#">Portfolio</a>
                 </li>
-                <li>
+                <li id="contact">
                     <a href="#">Contact</a>
                 </li>
             </ul>
@@ -84,7 +87,20 @@
         </div>
         <div class="BTT">
             <p>Kirsten Fasanello</p>
-            <a href="#top"><p>Back To Top</p></a>
+            <ul footer-nav>
+                <li class="top"><a href="#topnav"><p>Back To Top</p></a>
+                </li>
+
+                <li class="full">
+                    <a href="#home">Home</a>
+                </li>
+
+                <li class="full"><a href="#portfolio">Portfolio</a>
+                </li>
+                <li class="full">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
     </footer>
 
